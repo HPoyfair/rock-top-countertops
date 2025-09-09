@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rocktop Countertops — Utah</title>
+  <meta name="description" content="Rocktop Countertops • Utah • Request a quote for custom countertops." />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Site styles -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Global background video (fixed behind the whole page) -->
+  <video class="site-video" autoplay muted loop playsinline poster="assets/grey.jpg">
+    <source src="assets/countertopvideo.mp4" type="video/mp4">
+  </video>
+  <!-- Soft overlay so text/images read over the video -->
+  <div class="site-scrim" aria-hidden="true"></div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="profile">
+      <div class="hero-card">
+        <!-- Optional cover image (hidden on phones by CSS). Remove if you don't want it. -->
+        <!-- <div class="cover">
+          <img src="assets/anotherwhite.jpg" alt="Countertop close-up" />
+        </div> -->
+
+        <div class="brand-logo">
+          <img src="assets/logo.jpg" alt="Rocktop Countertops logo" />
+        </div>
+
+        <h1>ROCKTOP COUNTERTOPS</h1>
+        <div class="location">UTAH</div>
+
+        <nav class="social" aria-label="social links">
+          <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
+          <a href="mailto:hello@your-domain.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=15712530609" target="_blank" rel="noopener" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/rocktop_countertops" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/rocktop.countertops" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </nav>
+
+        <p class="tagline">Your project in good hands</p>
+        <p class="subtitle">Contact us</p>
+
+        <div class="actions">
+          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfqcwId_ruI5YOACeP1jm4OvfebcHswMj0TN-iGVa_XbWTdKw/viewform" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i> Request a quote</a>
+          <a class="btn" href="mailto:hello@your-domain.com"><i class="fa-solid fa-at"></i> E-mail</a>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=15712530609" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+          <a class="btn" href="https://www.facebook.com/rocktop.countertops" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a class="btn" href="https://www.instagram.com/rocktop_countertops" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- GALLERY -->
+  <main>
+    <section class="gallery" id="home">
+      <img src="assets/anotherwhite.jpg" alt="Double sink with marble countertop" />
+      <img src="assets/swirl.jpg" alt="Kitchen with stone island" />
+      <img src="assets/cafe.jpg" alt="Kitchen with stone island" />
+      <img src="assets/blackcounter.jpg" alt="Waterfall island and sink" />
+      <img src="assets/littletable.jpg" alt="White shaker cabinets with quartz tops" />
+      <img src="assets/blacksink.jpg" alt="Veined stone tabletop close-up" />
+      <img src="assets/betterhilton.jpg" alt="Bathroom vanity with undermount sink" />
+       <img src="assets/red.jpg" alt="Bathroom vanity with undermount sink" />
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    © <span id="year"></span> Rocktop Countertops • Utah.
+  </footer>
+
+  <script>
+    // current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
