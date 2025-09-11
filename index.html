@@ -6,6 +6,13 @@
   <title>Rocktop Countertops — Utah</title>
   <meta name="description" content="Rocktop Countertops • Utah • Request a quote for custom countertops." />
 
+  <!-- Favicons (place files in /assets) -->
+  <link rel="icon" href="assets/rocktop-favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0f1012">
+
   <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +25,7 @@
 <body>
   <!-- Global background video (fixed behind the whole page) -->
   <video class="site-video" autoplay muted loop playsinline poster="assets/grey.jpg">
-    <source src="assets/counterfix.mp4" type="video/mp4">
+    <source src="assets/counter.mp4" type="video/mp4">
   </video>
   <!-- Soft overlay so text/images read over the video -->
   <div class="site-scrim" aria-hidden="true"></div>
@@ -27,36 +34,63 @@
   <header class="hero">
     <div class="profile">
       <div class="hero-card">
-        <!-- Optional cover image (hidden on phones by CSS). Remove if you don't want it. -->
-        <!-- <div class="cover">
-          <img src="assets/anotherwhite.jpg" alt="Countertop close-up" />
-        </div> -->
 
-        <div class="brand-logo">
+        <!-- Logo -->
+        <div class="brand-logo" aria-hidden="true">
           <img src="assets/logo.jpg" alt="Rocktop Countertops logo" />
         </div>
 
         <h1>ROCKTOP COUNTERTOPS</h1>
         <div class="location">UTAH</div>
 
+        <!-- Social -->
         <nav class="social" aria-label="social links">
           <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
           <a href="mailto:support@rocktopcountertops.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=15712530609" target="_blank" rel="noopener" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
           <a href="https://www.instagram.com/rocktop_countertops" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
           <a href="https://www.facebook.com/rocktop.countertops" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         </nav>
 
         <p class="tagline">Your project in good hands</p>
         <p class="subtitle">Contact us</p>
-      
 
+        <!-- Compact contact lines (call + text) -->
+        <ul class="contact-lines">
+          <li>
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:+13853120719" aria-label="Call Rocktop Countertops">
+              Call: (385) 312-0719
+            </a>
+          </li>
+          <li>
+            <i class="fa-solid fa-message" aria-hidden="true"></i>
+            <a href="sms:+13853120719?&body=Hi%20Rocktop%20Countertops%2C%20I%E2%80%99d%20like%20a%20quote%20for...">
+              Text: +1 385-312-0719
+            </a>
+          </li>
+        </ul>
+
+        <!-- Main actions -->
         <div class="actions">
-          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfqcwId_ruI5YOACeP1jm4OvfebcHswMj0TN-iGVa_XbWTdKw/viewform" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i> Request a quote</a>
-          <a class="btn" href="mailto:support@rocktopcountertops.com"><i class="fa-solid fa-at"></i> E-mail</a>
-          <a class="btn" href="https://api.whatsapp.com/send?phone=15712530609" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
-          <a class="btn" href="https://www.facebook.com/rocktop.countertops" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook</a>
-          <a class="btn" href="https://www.instagram.com/rocktop_countertops" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfqcwId_ruI5YOACeP1jm4OvfebcHswMj0TN-iGVa_XbWTdKw/viewform" target="_blank" rel="noopener">
+            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+            <span>Request a quote</span>
+          </a>
+
+          <a class="btn" href="mailto:support@rocktopcountertops.com?subject=Quote%20request&body=Hi%20Rocktop%20Countertops,%0A%0AI'd%20like%20a%20quote%20for..." aria-label="Email Rocktop Countertops">
+            <i class="fa-solid fa-at" aria-hidden="true"></i>
+            <span>E-mail</span>
+          </a>
+
+          <a class="btn" href="https://www.facebook.com/rocktop.countertops" target="_blank" rel="noopener">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            <span>Facebook</span>
+          </a>
+
+          <a class="btn" href="https://www.instagram.com/rocktop_countertops" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+          </a>
         </div>
       </div>
     </div>
@@ -66,19 +100,17 @@
   <main>
     <section class="gallery" id="home">
       <img src="assets/anotherwhite.jpg" alt="Double sink with marble countertop" />
-      <img src="assets/swirl.jpg" alt="Kitchen with stone island" />
-      <img src="assets/cafe.jpg" alt="Kitchen with stone island" />
-      <img src="assets/blackcounter.jpg" alt="Waterfall island and sink" />
-      <img src="assets/littletable.jpg" alt="White shaker cabinets with quartz tops" />
-      <img src="assets/blacksink.jpg" alt="Veined stone tabletop close-up" />
-      <img src="assets/betterhilton.jpg" alt="Bathroom vanity with undermount sink" />
-       <img src="assets/red.jpg" alt="Bathroom vanity with undermount sink" />
+      <img src="assets/betterhilton.jpg" alt="Kitchen with stone island" />
+      <img src="assets/blacksink.jpg" alt="Waterfall island and sink" />
+      <img src="assets/swirl.jpg" alt="White shaker cabinets with quartz tops" />
+      <img src="assets/littletable.jpg" alt="Veined stone tabletop close-up" />
+      <img src="assets/blackcounter.jpg" alt="Bathroom vanity with undermount sink" />
     </section>
   </main>
 
   <!-- FOOTER -->
   <footer>
-    © <span id="year"></span> Rocktop Countertops • Utah.
+    © <span id="year"></span> Rocktop Countertops • Utah. Built for GitHub Pages.
   </footer>
 
   <script>
